@@ -146,4 +146,7 @@ if st.button('Predict'):
         st.write('Prediction: No Diabetes')
     else:
         st.write('Prediction: Diabetes')
+        # Write the code to a file named app.py
+with open('app.py', 'w') as file:
+    file.write(app_code)
 !streamlit run .py
