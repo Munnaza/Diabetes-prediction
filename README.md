@@ -150,8 +150,4 @@ if st.button('Predict'):
 with open('app.py', 'w') as file:
     file.write(app_code)
 !streamlit run .py
-your-repository/
-├── app.py
-├── random_forest_model.pkl
-├── requirements.txt
-├── README.md (optional but recommended)
+
